@@ -1,0 +1,18 @@
+{
+  "name": "db2-interp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Console ABD solver with optional Db2 input.",
+  "scripts": {
+    "start": "node src/main.js",
+    "demo": "node src/main.js --demo",
+    "count": "node src/main.js --count 12 5"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "optionalDependencies": {
+    "ibm_db": "^3.2.5"
+  }
+}
